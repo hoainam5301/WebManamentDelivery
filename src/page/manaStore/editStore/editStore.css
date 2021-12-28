@@ -1,0 +1,168 @@
+.editStore {
+    flex: 5;
+    padding: 20px;
+}
+
+.editStoreTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.editStoreTitle {}
+
+.editStoreAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.editStoreContainer {
+    display: flex;
+    margin-top: 20px;
+}
+
+.editStoreShow {
+    flex: 1;
+    padding: 20px;
+    box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.48);
+    -webkit-box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.48);
+}
+
+.editStoreUpdate {
+    flex: 2;
+    padding: 20px;
+    box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.48);
+    -webkit-box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.48);
+    margin-left: 20px;
+}
+
+.editStoreShowTop {
+    display: flex;
+    align-items: center;
+}
+
+.editStoreShowImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.editStoreShowTopTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.editStoreShoweditStorename {
+    font-weight: 600;
+}
+
+.editStoreShowUserTitle {
+    font-weight: 300;
+}
+
+.editStoreShowBottomTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+}
+
+.editStoreShowBottom {
+    margin-top: 20px;
+}
+
+.editStoreShowBottomInfo {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    color: #444;
+}
+
+.editStoreShowBottomIcon {
+    font-size: 16px !important;
+}
+
+.editStoreShowBottomInfoTitle {
+    margin-left: 12px;
+}
+
+.editStoreUpdateForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.editStoreUpdateTitle {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.editStoreUpdateItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.editStoreUpdateLabelItem {
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+
+.editStoreUpdateInput {
+    border: none;
+    width: 250px;
+    height: 25px;
+    border-bottom: 1px solid gray;
+}
+
+.editStoreUpdateImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.editStoreUpdateUploadImg {
+    display: flex;
+    flex-direction: column;
+}
+
+.editStoreUpdateRight {
+    padding-left: 36px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editStoreUpdateLeft {
+    flex: 2;
+}
+
+.editStoreUpdateUpload {
+    display: flex;
+    align-items: center;
+}
+
+.editStoreUpdateButton {
+    border-radius: 5px;
+    width: 125px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #9F0311;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-right: 35px;
+}

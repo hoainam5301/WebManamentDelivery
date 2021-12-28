@@ -1,0 +1,53 @@
+.createDelivery{
+    flex: 5;
+}
+.createDeliveryForm{
+    display: flex;
+    flex-wrap: wrap;
+}
+.createDeliveryFormItem{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.createDeliveryFormItem>label{
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+.createDeliveryFormItem>input{
+    height: 20px;
+    padding: 9px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.createDeliveryGender>input{
+    margin-top: 16px;
+}
+.createDeliveryGender>label{
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+.createDeliverySelect{
+    height: 40px;
+    border-radius: 5px;
+}
+.createDeliveryButton{
+    width: 200px;
+    height: 35px;
+    border: none;
+    background-color: #9F0311;
+    color: white;
+    padding: 7px 10px ;
+    font-weight: 600;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 48px;
+    right: 24px;
+    font-size: 18px;
+    cursor: pointer;
+}

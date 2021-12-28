@@ -1,0 +1,143 @@
+.editStaff{
+    flex: 5;
+    padding: 20px;
+}
+.editStaffTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.editStaffTitle{
+
+}
+.editStaffAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+.editStaffContainer{
+    display: flex;
+    margin-top: 20px;
+}
+.editStaffShow{
+    flex: 1;
+    padding: 20px;
+    box-shadow: 2px 3px 8px 0px rgba(0,0,0,0.48);
+-webkit-box-shadow: 2px 3px 8px 0px rgba(0,0,0,0.48);
+-moz-box-shadow: 2px 3px 8px 0px rgba(0,0,0,0.48);
+}
+.editStaffUpdate{
+    flex: 2;
+    padding: 20px;
+    box-shadow: 2px 3px 8px 0px rgba(0,0,0,0.48);
+-webkit-box-shadow: 2px 3px 8px 0px rgba(0,0,0,0.48);
+-moz-box-shadow: 2px 3px 8px 0px rgba(0,0,0,0.48);
+    margin-left: 20px;
+}
+.editStaffShowTop{
+    display: flex;
+    align-items: center;
+}
+.editStaffShowImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.editStaffShowTopTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+.editStaffShoweditStaffname{
+    font-weight: 600;
+}
+.editStaffShowUserTitle{
+    font-weight: 300;
+}
+.editStaffShowBottomTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+}
+.editStaffShowBottom{
+    margin-top: 20px;
+}
+.editStaffShowBottomInfo{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    color: #444;
+}
+.editStaffShowBottomIcon{
+    font-size: 16px !important;
+}
+.editStaffShowBottomInfoTitle{
+    margin-left: 12px;
+}
+.editStaffUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.editStaffUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.editStaffUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.editStaffUpdateLabelItem{
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+.editStaffUpdateInput{
+    border: none;
+    width: 250px;
+    height: 25px;
+    border-bottom: 1px solid gray;
+}
+.editStaffUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.editStaffUpdateUploadImg{
+    display: flex;
+    flex-direction: column;
+}
+.editStaffUpdateRight{
+    padding-left: 36px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.editStaffUpdateLeft{
+    flex:2;
+}
+.editStaffUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+.editStaffUpdateButton{
+    border-radius: 5px;
+    width: 125px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #9F0311;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-right: 35px;
+}

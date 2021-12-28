@@ -1,0 +1,39 @@
+.deliveryStaff{
+    flex: 5;
+}
+.deliveryStaffUser{
+    display: flex;
+    align-items: center;
+}
+.deliveryStaffUserImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.deliveryStaffUserEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    margin-right: 24px;
+}
+.deliveryStaffUserDelete{
+    color: red;
+    cursor: pointer;
+}
+.staffAddButton{
+    width: 120px;
+    border: none;
+    padding: 5px;
+    background-color: #9F0311;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    bottom: 64px;
+    right: 24px;
+}

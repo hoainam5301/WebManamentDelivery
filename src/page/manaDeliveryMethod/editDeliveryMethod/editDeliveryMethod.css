@@ -1,0 +1,141 @@
+.editDeliveryMethod{
+    flex: 5;
+    padding: 20px;
+}
+.editDeliveryMethodTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.editDeliveryMethodTitle{
+
+}
+.editDeliveryMethodAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+.editDeliveryMethodContainer{
+    display: flex;
+    margin-top: 20px;
+}
+.editDeliveryMethodShow{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 3px 3px 6px 0px #000000;
+    box-shadow: 3px 3px 6px 0px #000000;
+}
+.editDeliveryMethodUpdate{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 3px 3px 6px 0px #000000;
+    box-shadow: 3px 3px 6px 0px #000000;
+    margin-left: 20px;
+}
+.editDeliveryMethodShowTop{
+    display: flex;
+    align-items: center;
+}
+.editDeliveryMethodShowImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.editDeliveryMethodShowTopTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+.editDeliveryMethodShoweditDeliveryMethodname{
+    font-weight: 600;
+}
+.editDeliveryMethodShowUserTitle{
+    font-weight: 300;
+}
+.editDeliveryMethodShowBottomTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+}
+.editDeliveryMethodShowBottom{
+    margin-top: 20px;
+}
+.editDeliveryMethodShowBottomInfo{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    color: #444;
+}
+.editDeliveryMethodShowBottomIcon{
+    font-size: 16px !important;
+}
+.editDeliveryMethodShowBottomInfoTitle{
+    margin-left: 12px;
+}
+.editDeliveryMethodUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.editDeliveryMethodUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.editDeliveryMethodUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.editDeliveryMethodUpdateLabelItem{
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+.editDeliveryMethodUpdateInput{
+    border: none;
+    width: 250px;
+    height: 25px;
+    border-bottom: 1px solid gray;
+}
+.editDeliveryMethodUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.editDeliveryMethodUpdateUploadImg{
+    display: flex;
+    flex-direction: column;
+}
+.editDeliveryMethodUpdateRight{
+    padding-left: 36px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.editDeliveryMethodUpdateLeft{
+    flex:2;
+}
+.editDeliveryMethodUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+.editDeliveryMethodUpdateButton{
+    border-radius: 5px;
+    width: 125px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #9F0311;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-right: 35px;
+}

@@ -1,0 +1,141 @@
+.editCommisiom{
+    flex: 5;
+    padding: 20px;
+}
+.editCommisiomTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.editCommisiomTitle{
+
+}
+.editCommisiomAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+.editCommisiomContainer{
+    display: flex;
+    margin-top: 20px;
+}
+.editCommisiomShow{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 3px 3px 6px 0px #000000;
+    box-shadow: 3px 3px 6px 0px #000000;
+}
+.editCommisiomUpdate{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 3px 3px 6px 0px #000000;
+    box-shadow: 3px 3px 6px 0px #000000;
+    margin-left: 20px;
+}
+.editCommisiomShowTop{
+    display: flex;
+    align-items: center;
+}
+.editCommisiomShowImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.editCommisiomShowTopTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+.editCommisiomShoweditCommisiomname{
+    font-weight: 600;
+}
+.editCommisiomShowUserTitle{
+    font-weight: 300;
+}
+.editCommisiomShowBottomTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+}
+.editCommisiomShowBottom{
+    margin-top: 20px;
+}
+.editCommisiomShowBottomInfo{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    color: #444;
+}
+.editCommisiomShowBottomIcon{
+    font-size: 16px !important;
+}
+.editCommisiomShowBottomInfoTitle{
+    margin-left: 12px;
+}
+.editCommisiomUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.editCommisiomUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.editCommisiomUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.editCommisiomUpdateLabelItem{
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+.editCommisiomUpdateInput{
+    border: none;
+    width: 250px;
+    height: 25px;
+    border-bottom: 1px solid gray;
+}
+.editCommisiomUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.editCommisiomUpdateUploadImg{
+    display: flex;
+    flex-direction: column;
+}
+.editCommisiomUpdateRight{
+    padding-left: 36px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.editCommisiomUpdateLeft{
+    flex:2;
+}
+.editCommisiomUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+.editCommisiomUpdateButton{
+    border-radius: 5px;
+    width: 125px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #9F0311;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-right: 35px;
+}

@@ -1,42 +1,55 @@
-.sideBar{
+.sideBar {
     flex: 1;
     height: calc(100vh - 85px);
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.27);
+    -webkit-box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.27);
     position: sticky;
     top: 50px;
 }
-.sideBarWrapper{
+
+.sideBarWrapper {
     padding: 20px;
     color: #555;
 
 }
-.sideBarMenu{
+
+.sideBarMenu {
     margin-bottom: 10px;
 }
-.sideBarTitle{
+
+.sideBarTitle {
     font-size: 18;
-    color: black;
+    color: #555;
 
 }
-.sideBarList{
+
+.sideBarList {
     list-style: none;
     padding: 5px;
 }
-.sideBarListItem{
+
+.sideBarListItem {
     margin-top: 6px;
     padding: 5px;
+    color: black;
     cursor: pointer;
     display: flex;
     align-items: center;
     border-radius: 10px;
 }
-.sideBarListItem.active, .sideBarListItem:hover{
-background-color: chartreuse;
+
+.sideBarListItem.active, .sideBarListItem:hover {
+    background-color: #9F0311;
+    color: white;
 }
-.sideBarIcon{
+
+.sideBarIcon {
     margin-right: 6px;
     font-size: 20 !important;
 }
-.link{
+
+.link {
     text-decoration: none;
     color: #555;
 }
