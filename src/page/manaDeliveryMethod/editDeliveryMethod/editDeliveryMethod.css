@@ -1,16 +1,17 @@
-.editDeliveryMethod{
+.editDeliveryMethod {
     flex: 5;
     padding: 20px;
 }
-.editDeliveryMethodTitleContainer{
+
+.editDeliveryMethodTitleContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.editDeliveryMethodTitle{
 
-}
-.editDeliveryMethodAddButton{
+.editDeliveryMethodTitle {}
+
+.editDeliveryMethodAddButton {
     width: 80px;
     border: none;
     padding: 5px;
@@ -20,100 +21,121 @@
     color: white;
     font-size: 16px;
 }
-.editDeliveryMethodContainer{
+
+.editDeliveryMethodContainer {
     display: flex;
     margin-top: 20px;
 }
-.editDeliveryMethodShow{
+
+.editDeliveryMethodShow {
     flex: 1;
     padding: 20px;
-    -webkit-box-shadow: 3px 3px 6px 0px #000000;
-    box-shadow: 3px 3px 6px 0px #000000;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
-.editDeliveryMethodUpdate{
+
+.editDeliveryMethodUpdate {
     flex: 2;
     padding: 20px;
-    -webkit-box-shadow: 3px 3px 6px 0px #000000;
-    box-shadow: 3px 3px 6px 0px #000000;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     margin-left: 20px;
 }
-.editDeliveryMethodShowTop{
+
+.editDeliveryMethodShowTop {
     display: flex;
     align-items: center;
 }
-.editDeliveryMethodShowImg{
+
+.editDeliveryMethodShowImg {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
 }
-.editDeliveryMethodShowTopTitle{
+
+.editDeliveryMethodShowTopTitle {
     display: flex;
     flex-direction: column;
     margin-left: 12px;
 }
-.editDeliveryMethodShoweditDeliveryMethodname{
+
+.editDeliveryMethodShoweditDeliveryMethodname {
     font-weight: 600;
 }
-.editDeliveryMethodShowUserTitle{
+
+.editDeliveryMethodShowUserTitle {
     font-weight: 300;
 }
-.editDeliveryMethodShowBottomTitle{
+
+.editDeliveryMethodShowBottomTitle {
     font-size: 14px;
     font-weight: 600;
     color: rgb(175, 170, 170);
 }
-.editDeliveryMethodShowBottom{
+
+.editDeliveryMethodShowBottom {
     margin-top: 20px;
 }
-.editDeliveryMethodShowBottomInfo{
+
+.editDeliveryMethodShowBottomInfo {
     margin: 20px 0;
     display: flex;
     align-items: center;
     color: #444;
 }
-.editDeliveryMethodShowBottomIcon{
+
+.editDeliveryMethodShowBottomIcon {
     font-size: 16px !important;
 }
-.editDeliveryMethodShowBottomInfoTitle{
+
+.editDeliveryMethodShowBottomInfoTitle {
     margin-left: 12px;
 }
-.editDeliveryMethodUpdateForm{
+
+.editDeliveryMethodUpdateForm {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
-.editDeliveryMethodUpdateTitle{
+
+.editDeliveryMethodUpdateTitle {
     font-size: 24px;
     font-weight: 600;
 }
-.editDeliveryMethodUpdateItem{
+
+.editDeliveryMethodUpdateItem {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
 }
-.editDeliveryMethodUpdateLabelItem{
+
+.editDeliveryMethodUpdateLabelItem {
     margin-bottom: 6px;
     font-size: 16px;
 }
-.editDeliveryMethodUpdateInput{
+
+.editDeliveryMethodUpdateInput {
     border: none;
     width: 250px;
     height: 25px;
     border-bottom: 1px solid gray;
 }
-.editDeliveryMethodUpdateImg{
+
+.editDeliveryMethodUpdateImg {
     width: 100px;
     height: 100px;
     border-radius: 10px;
     object-fit: cover;
     margin-right: 20px;
 }
-.editDeliveryMethodUpdateUploadImg{
+
+.editDeliveryMethodUpdateUploadImg {
     display: flex;
     flex-direction: column;
 }
-.editDeliveryMethodUpdateRight{
+
+.editDeliveryMethodUpdateRight {
     padding-left: 36px;
     display: flex;
     flex: 1;
@@ -121,14 +143,17 @@
     justify-content: space-between;
     align-items: center;
 }
-.editDeliveryMethodUpdateLeft{
-    flex:2;
+
+.editDeliveryMethodUpdateLeft {
+    flex: 2;
 }
-.editDeliveryMethodUpdateUpload{
+
+.editDeliveryMethodUpdateUpload {
     display: flex;
     align-items: center;
 }
-.editDeliveryMethodUpdateButton{
+
+.editDeliveryMethodUpdateButton {
     border-radius: 5px;
     width: 125px;
     border: none;

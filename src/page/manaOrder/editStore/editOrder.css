@@ -1,16 +1,17 @@
-.editOrder{
+.editOrder {
     flex: 5;
     padding: 20px;
 }
-.editOrderTitleContainer{
+
+.editOrderTitleContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.editOrderTitle{
 
-}
-.editOrderAddButton{
+.editOrderTitle {}
+
+.editOrderAddButton {
     width: 80px;
     border: none;
     padding: 5px;
@@ -20,100 +21,121 @@
     color: white;
     font-size: 16px;
 }
-.editOrderContainer{
+
+.editOrderContainer {
     display: flex;
     margin-top: 20px;
 }
-.editOrderShow{
+
+.editOrderShow {
     flex: 1;
     padding: 20px;
-    -webkit-box-shadow: 3px 3px 6px 0px #000000;
-    box-shadow: 3px 3px 6px 0px #000000;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
-.editOrderUpdate{
+
+.editOrderUpdate {
     flex: 2;
     padding: 20px;
-    -webkit-box-shadow: 3px 3px 6px 0px #000000;
-    box-shadow: 3px 3px 6px 0px #000000;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     margin-left: 20px;
 }
-.editOrderShowTop{
+
+.editOrderShowTop {
     display: flex;
     align-items: center;
 }
-.editOrderShowImg{
+
+.editOrderShowImg {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
 }
-.editOrderShowTopTitle{
+
+.editOrderShowTopTitle {
     display: flex;
     flex-direction: column;
     margin-left: 12px;
 }
-.editOrderShoweditOrdername{
+
+.editOrderShoweditOrdername {
     font-weight: 600;
 }
-.editOrderShowUserTitle{
+
+.editOrderShowUserTitle {
     font-weight: 300;
 }
-.editOrderShowBottomTitle{
+
+.editOrderShowBottomTitle {
     font-size: 14px;
     font-weight: 600;
     color: rgb(175, 170, 170);
 }
-.editOrderShowBottom{
+
+.editOrderShowBottom {
     margin-top: 20px;
 }
-.editOrderShowBottomInfo{
+
+.editOrderShowBottomInfo {
     margin: 20px 0;
     display: flex;
     align-items: center;
     color: #444;
 }
-.editOrderShowBottomIcon{
+
+.editOrderShowBottomIcon {
     font-size: 16px !important;
 }
-.editOrderShowBottomInfoTitle{
+
+.editOrderShowBottomInfoTitle {
     margin-left: 12px;
 }
-.editOrderUpdateForm{
+
+.editOrderUpdateForm {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
-.editOrderUpdateTitle{
+
+.editOrderUpdateTitle {
     font-size: 24px;
     font-weight: 600;
 }
-.editOrderUpdateItem{
+
+.editOrderUpdateItem {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
 }
-.editOrderUpdateLabelItem{
+
+.editOrderUpdateLabelItem {
     margin-bottom: 6px;
     font-size: 16px;
 }
-.editOrderUpdateInput{
+
+.editOrderUpdateInput {
     border: none;
-    width: 250px;
+    width: 350px;
     height: 25px;
     border-bottom: 1px solid gray;
 }
-.editOrderUpdateImg{
+
+.editOrderUpdateImg {
     width: 100px;
     height: 100px;
     border-radius: 10px;
     object-fit: cover;
     margin-right: 20px;
 }
-.editOrderUpdateUploadImg{
+
+.editOrderUpdateUploadImg {
     display: flex;
     flex-direction: column;
 }
-.editOrderUpdateRight{
+
+.editOrderUpdateRight {
     padding-left: 36px;
     display: flex;
     flex: 1;
@@ -121,14 +143,17 @@
     justify-content: space-between;
     align-items: center;
 }
-.editOrderUpdateLeft{
-    flex:2;
+
+.editOrderUpdateLeft {
+    flex: 2;
 }
-.editOrderUpdateUpload{
+
+.editOrderUpdateUpload {
     display: flex;
     align-items: center;
 }
-.editOrderUpdateButton{
+
+.editOrderUpdateButton {
     border-radius: 5px;
     width: 125px;
     border: none;

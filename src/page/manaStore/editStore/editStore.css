@@ -30,17 +30,15 @@
 .editStoreShow {
     flex: 1;
     padding: 20px;
-    box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.48);
-    -webkit-box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.48);
-    -moz-box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.48);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .editStoreUpdate {
     flex: 2;
     padding: 20px;
-    box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.48);
-    -webkit-box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.48);
-    -moz-box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.48);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     margin-left: 20px;
 }
 

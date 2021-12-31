@@ -53,7 +53,21 @@ export default function ManaDeliveryMethod() {
     ];
 
     const handleDelete = (id) => {
-        setData(data.filter((item) => item.id !== id));
+        axios.delete(`https://fast-delivery-server.herokuapp.com/api/v1/dvmethods/${id}`)
+            .then(res => {
+                console.log("Delete Success")
+            })
+            .catch(error => console.log(error));
+        axios.get(`https://fast-delivery-server.herokuapp.com/api/v1/dvmethods`)
+            .then(res => {
+                res.data.dvMethods = res.data.dvMethods.map(obj => {
+                    obj.id = obj._id
+                    return obj;
+                })
+                setData(res.data.dvMethods)
+                alert('Xóa phương thức vận chuyển thành công');
+            })
+            .catch(error => console.log(error));
     };
     return (
         <div className='deliveryMethod'>

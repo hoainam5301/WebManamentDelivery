@@ -11,7 +11,7 @@ import axios from 'axios';
 export default function ManaOrder() {
     const [data, setData] = useState([])
     useEffect(() => {
-        axios.get(`https://fast-delivery-server.herokuapp.com/api/v1/orders`)
+        axios.patch(`https://fast-delivery-server.herokuapp.com/api/v1/orders/handle`)
             .then(res => {
                 res.data.orders = res.data.orders.map(obj => {
                     obj.id = obj._id
